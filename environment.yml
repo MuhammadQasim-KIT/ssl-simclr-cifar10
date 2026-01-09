@@ -1,0 +1,17 @@
+name: ssl-vision
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - pyyaml
+  - pytorch
+  - torchvision
+  - pip:
+      - tensorboard
