@@ -251,6 +251,10 @@ python -m src.predict_images   --mode linear_eval   --encoder_ckpt NONE   --line
 
 ---
 
-## 11) One-line takeaway (portfolio)
+## 11) Key Takeaways
 
-**SimCLR improves representation quality by ~18% in linear evaluation (58.87% vs 40.89%), demonstrating substantially more linearly separable features than random initialization.**
+- Self-supervised learning (SimCLR) learns transferable visual representations without labels.
+- Linear evaluation clearly reveals representation quality better than fine-tuning accuracy alone.
+- SimCLR-pretrained features are linearly separable and significantly outperform random features.
+- Qualitative prediction analysis exposes failure modes hidden by aggregate metrics.
+- Proper experimental baselines (scratch vs pretrained) are essential for meaningful evaluation.
